@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: servicenest
+    name: servicenest-reena
     runtime: static
     rootDir: client
     buildCommand: npm ci && npm run build
