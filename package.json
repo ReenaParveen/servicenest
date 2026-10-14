@@ -1,0 +1,18 @@
+{
+  "name": "servicenest",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ServiceNest local services booking marketplace",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client && npm install",
+    "dev": "npm run dev --prefix client",
+    "seed": "npm run seed --prefix server",
+    "create-admin": "npm run create-admin --prefix server",
+    "test": "npm test --prefix server && npm test --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
